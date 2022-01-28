@@ -1,2 +1,80 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
+
+
+*{
+    font-size: 1em;
+}
+
+:root{
+    --cor0: white;
+    --cor1: #a9a9a9;
+    --cor2: #333333;       
+    --cor3: rgba(0, 0, 0, 0.489);
+    --cor4: black;
+
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+header h1{
+    
+    font-size: 10vw;
+    margin: 0%;
+    padding-top: 50px;
+    font-family: 'Passion One', 'cursive';
+    font-variant: small-caps;
+    margin-bottom: -4%;
+
+}
+header a {
+    text-decoration: none;
+    color: var(--cor0);
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header blockquote{
+    margin: 0%;
+    padding:0%;
+}   
+
+header p{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0%;
+    margin: 0%;
+    padding-bottom: 50px;
+    
+}
+.cont0{
+    background-color: var(--cor4);
+    color: var(--cor0);
+}
+section.normal  {
+    background-color: var(--cor0);
+    display: inline-block;
+       
+    font-family: 'Sriracha', 'cursive';
+    padding-bottom: 60px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 3.2vw;
+    line-height: 5vw;
+    width: 500px;
+
+
+}
+}
+section#fundo01{
+    background: purple url(/imagens/background001.jpg) center center no-repeat fixed;
+    position: relative;
+    
+}

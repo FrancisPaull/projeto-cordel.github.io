@@ -5,81 +5,226 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Cordel</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+          
+            background-color: rgb(231, 170, 170);
+            
+        }
+        header{
+            
+            background-color: black;
+            width: 100% 100%;
+            text-align: center;
+            color: white;
+            position: cover;
+        }
+        header h1{
+    
+            font-size: 10vw;
+            margin: 0%;
+            padding-top: 50px;
+            font-family: 'Passion One', 'cursive';
+            font-variant: small-caps;
+            margin-bottom: -4%;        
+        }
+        header p{
+            font-size: 1em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 0%;
+            margin: 0%;
+            padding-bottom: 50px;
+        }
+        header a {
+            text-decoration: none;
+            color: var(--cor0);
+            font-size: 1.2em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        header blockquote{
+                margin: 0%;
+                padding:0%;
+            }   
+        .container{
+            
+            background-color: rgb(254, 255, 255);
+            top: 100px;
+            left: 100px;
+            padding: 20px;
+            
+        }
+        .conteudo {
+            display: inline-block;                    
+            height: 30vw;
+            padding-left: 2vw;
+            padding-top: 2vw;
+            width: 600px;
+            font-family: 'Sriracha', 'cursive';
+            padding: 5vw;
+            text-align: left;
+            font-size: 3.2vw;
+            line-height: 4vw;
+            width: 500px;
+            
+            
+        }
+        #fundo01{
+            background: gray url(imagens/background001.jpg) center center no-repeat fixed;
+            background-size: cover;
+        }
+        #fundo01 > p{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.381);
+            font-family: 'Sriracha', 'cursive';
+            padding: 5vw;
+            text-align: left;
+            font-size: 3.2vw;
+            line-height: 10vw;
+            width: 500px;
+            height: 87vw;
+    
+
+        }
+        
+        .conteudo#fundo01{
+            width: 100%;
+            
+        }
+        #fundo02 {
+            background: gray url(imagens/background002.jpg) center center no-repeat fixed;
+            background-size: cover;
+        }
+        #fundo02 > p{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.381);
+            background-position: center center;
+            background-size: 4vw;
+            font-family: 'Sriracha', 'cursive';
+            padding: 5vw;
+            text-align: left;
+            font-size: 3.2vw;
+            line-height: 6vw;
+            width: 500px;
+        }
+        .fundobranco > p{
+            position: inline-block;
+            background-color: white;
+            width: 600px;
+            padding: 20px;
+            line-height: 10vw;
+            width: 500px;
+            height: 87vw;
+            
+            
+        }
+    </style>
 </head>
 <body>
-    <header class='cont0'>
-        Cordel Moderno
-        Por Milton Duarte
+    <header class=''>
+        <h1>Cordel Moderno</h1>
+        <p>
+        <a href="https://www.recantodasletras.com.br/poesias/3186743">
+            <blockquote cite="https://www.recantodasletras.com.br/poesias/3186743">Por Milton Duarte</blockquote>
+        </a>
+        </p>
     </header>
 
 <main>
-    <p class="cont1">
-        Estou ficando cansado
-        Da tal tecnologia
-        Só se fala por e-mail
-        Mensagem curta e fria
-        Twitter e Facebook
-        Antes que eu caduque
-        Vou dizer tudo em poesia.
-    </p>
-    
-    <p class="cont2">
-        Não é mais como era antes
-        É tudo abreviado
-        "Você" só tem duas letras
-        O "O" e o "E" foi riscado
-        Para declarar o amor
-        Basta botar uma flor
-        E um coração desenhado.
-        Arroba agora não pesa
-        É parte de um endereço
-        Ponto final nem se usa
-        Ou vai até no começo
-        Agora é .com
-        Se o saite é muito bom
-        Ele vale um alto preço.
-    </p>
-    
-    <p class="cont3">
-        Pra piorar a liguagem
-        O emoticom é um risco
-        Tem símbolo para tudo
-        Ponto e vírgula e um asterisco
-        Um beijo significa
-        Pra entender como fica
-        Decifre esse rabisco.
-    </p>
-    
-    <p class="cont4">
-        Tenho saudade das cartas
-        Escritas com a própria mão
-        Mandava no mês de Junho
-        Só chegava no Verão
-        Mas matava a saudade
-        Era texto de verdade
-        Nas linhas do coração.
-        Agora, escrevo e envio
-        Chegando na mesma hora
-        Mas quando vou prosear
-        A pessoa foi embora
-        Abriu outro aplicativo
-        O mundo ficou cativo
-        Da tecnologia do agora.
-    </p>
-    
-    <p class= cont5>
-        Felizmente, pra orar
-        Não precisa de internet
-        Deus escuta todo mundo
-        Se quiser, faça esse teste
-        Dois pontos são dois joelhos
-        Seus lábios são aparelhos
-        Deixe que Deus interprete.
-    </p>
+    <div class="container">
+
+        <p class="conteudo" class=fundobranco>Estou ficando cansado
+            Da tal tecnologia
+            Só se fala por e-mail
+            Mensagem curta e fria
+            Twitter e Facebook
+            Antes que eu caduque
+            Vou dizer tudo em poesia.</p>
+
+    </div>
+
+    <div class="container" class='imagem' id="fundo01">
+
+        <p class="conteudo">Não é mais como era antes
+            É tudo abreviado
+            "Você" só tem duas letras
+            O "O" e o "E" foi riscado
+            Para declarar o amor
+            Basta botar uma flor
+            E um coração desenhado.
+            Arroba agora não pesa
+            É parte de um endereço
+            Ponto final nem se usa
+            Ou vai até no começo
+            Agora é .com
+            Se o saite é muito bom
+            Ele vale um alto preço.</p>
+
+    </div>
+    <div class="container">
+
+        <p class="conteudo" class=fundobranco>Pra piorar a liguagem
+            O emoticom é um risco
+            Tem símbolo para tudo
+            Ponto e vírgula e um asterisco
+            Um beijo significa
+            Pra entender como fica
+            Decifre esse rabisco.</p></div>
+
+    <div class="container" class='imagem' id="fundo02" >
+
+        <p class="conteudo">Tenho saudade das cartas
+            Escritas com a própria mão
+            Mandava no mês de Junho
+            Só chegava no Verão
+            Mas matava a saudade
+            Era texto de verdade
+            Nas linhas do coração.
+            Agora, escrevo e envio
+            Chegando na mesma hora
+            Mas quando vou prosear
+            A pessoa foi embora
+            Abriu outro aplicativo
+            O mundo ficou cativo
+            Da tecnologia do agora.</p>
+
+    </div>
+
+    <div class="container">
+
+        <p class="conteudo" class=fundobranco>Felizmente, pra orar
+            Não precisa de internet
+            Deus escuta todo mundo
+            Se quiser, faça esse teste
+            Dois pontos são dois joelhos
+            Seus lábios são aparelhos
+            Deixe que Deus interprete.</p>
+
+    </div>
+
 </main>
 
-<footer>Site criado por Gustavo Guanabara para o CursoemVideo</footer>
+<footer></footer>
     
 </body>
 </html>
+Cordel Moderno
+Por Milton Duarte
+
+
+
+
+
+
+
+
+Site criado por Gustavo Guanabara para o CursoemVideo
