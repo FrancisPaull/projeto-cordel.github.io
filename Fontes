@@ -4,14 +4,3 @@ BODY
 Verdana, Geneva, Tahoma, sans-serif
 
 
-main p , .imagem{
-    background-color: var(--cor0);
-    display: inline-block;
-    position: relative;    
-    font-family: 'Sriracha', 'cursive';
-    padding-bottom: 60px;
-    padding-left: 50px;
-    text-align: left;
-    font-size: 3.2vw;
-    line-height: 5vw;
-    width: 500px;
